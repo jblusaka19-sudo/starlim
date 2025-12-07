@@ -61,7 +61,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              We operate with a commitment to professionalism, inclusiveness, and excellence, delivering high-quality consulting, auditing, taxation, and general business services tailored to meet diverse client needs.
+              StarLime Consultant & General Dealer Limited strives to empower institutions, communities, and individuals by providing reliable services that drive long-term development and operational effectiveness.
             </p>
 
             
