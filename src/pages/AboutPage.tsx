@@ -50,11 +50,13 @@ export default function AboutPage() {
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-600 to-teal-600 mb-8"></div>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
               StarLime Consultant & General Dealer Limited is a multidisciplinary consultancy and service delivery company established in 2024. We provide research-driven, practical, and innovative solutions that support organizational growth, community development, and effective service delivery across sectors.
-We operate with a commitment to professionalism, inclusiveness, and excellence, delivering high-quality consulting, auditing, taxation, and general business services tailored to meet diverse client needs.
-Our team consists of experienced professionals with expertise in research, programme design, monitoring and evaluation, education, governance, climate change, technology, taxation, and organizational systems strengthening.
-StarLime Consultant & General Dealer Limited strives to empower institutions, communities, and individuals by providing reliable services that drive long-term development and operational effectiveness.
-
             </p>
+
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              We operate with a commitment to professionalism, inclusiveness, and excellence, delivering high-quality consulting, auditing, taxation, and general business services tailored to meet diverse client needs.
+            </p>
+
+            
           </motion.div>
         </div>
       </section>
