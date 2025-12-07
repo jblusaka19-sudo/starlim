@@ -173,9 +173,12 @@ export default function Services() {
           <p className="text-white/90 mb-8 max-w-2xl mx-auto">
             Our team of experts is ready to deliver tailored solutions that drive results
           </p>
-          <button className="px-8 py-4 bg-white text-emerald-600 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <a
+            href="/contact"
+            className="inline-block px-8 py-4 bg-white text-emerald-600 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300"
+          >
             Schedule a Consultation
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

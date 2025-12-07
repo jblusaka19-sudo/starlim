@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Sparkles } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +38,11 @@ export default function Navigation() {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-lg flex items-center justify-center">
-              <Sparkles className="text-white" size={20} />
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="StarLime Logo"
+              className="h-12 w-auto object-contain"
+            />
             <div>
               <div className="text-xl font-bold text-gray-900">StarLime</div>
               <div className="text-xs text-gray-600">Consultant & General Dealer Ltd.</div>
@@ -48,24 +50,24 @@ export default function Navigation() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
+            <Link to="/" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              Home
+            </Link>
             <Link to="/about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
               About
             </Link>
-            <button
-              onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-emerald-600 transition-colors font-medium cursor-pointer bg-none border-none"
-            >
+            <Link to="/services" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
               Services
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-emerald-600 transition-colors font-medium cursor-pointer bg-none border-none"
-            >
+            </Link>
+            <Link to="/team" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
+              Team
+            </Link>
+            <Link to="/contact" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
               Contact
-            </button>
+            </Link>
             <Link
-              to="/#contact"
-              className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-300"
+              to="/contact"
+              className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Get Started
             </Link>
@@ -88,26 +90,42 @@ export default function Navigation() {
           >
             <div className="flex flex-col gap-4">
               <Link
+                to="/"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2"
+              >
+                Home
+              </Link>
+              <Link
                 to="/about"
                 onClick={() => setIsOpen(false)}
                 className="text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2"
               >
                 About
               </Link>
-              <button
-                onClick={() => scrollToSection('services')}
-                className="text-left text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2 bg-none border-none cursor-pointer"
+              <Link
+                to="/services"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2"
               >
                 Services
-              </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="text-left text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2 bg-none border-none cursor-pointer"
+              </Link>
+              <Link
+                to="/team"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2"
+              >
+                Team
+              </Link>
+              <Link
+                to="/contact"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-emerald-600 transition-colors font-medium py-2"
               >
                 Contact
-              </button>
+              </Link>
               <Link
-                to="/#contact"
+                to="/contact"
                 onClick={() => setIsOpen(false)}
                 className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-300 text-center block"
               >
