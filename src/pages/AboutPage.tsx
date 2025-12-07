@@ -49,22 +49,13 @@ export default function AboutPage() {
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-600 to-teal-600 mb-8"></div>
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              StarLime Consultant & General Dealer Limited is a multidisciplinary consultancy and service delivery company established in 2024. We provide research-driven, practical, and innovative solutions that support organizational growth, community development, and effective service delivery across sectors.
+              StarLime Consultant & General Dealer Limited is a multidisciplinary consultancy and service delivery firm established in 2024 with a vision to provide research-driven and innovative solutions across various sectors. Our work is anchored in professionalism, inclusiveness, and a strong commitment to excellence. We focus on offering practical, data-informed services that promote organizational growth, community development, and efficient service delivery. Through our consulting, auditing, taxation, and general business support services, we aim to equip clients with the tools, insights, and systems needed to navigate challenges and achieve sustainable progress.
             </p>
 
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              We operate with a commitment to professionalism, inclusiveness, and excellence, delivering high-quality consulting, auditing, taxation, and general business services tailored to meet diverse client needs.
+             Our team is composed of highly skilled professionals with diverse expertise spanning research, programme design, monitoring and evaluation, education, governance, climate change, technology, taxation, and organizational systems strengthening. With this multidisciplinary strength, StarLime Consultant & General Dealer Limited strives to empower institutions, communities, and individuals by delivering reliable, context-specific, and results-oriented solutions. We are dedicated to supporting long-term development, operational effectiveness, and transformative outcomes that enhance performance and create lasting impact.
             </p>
-
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Our team consists of experienced professionals with expertise in research, programme design, monitoring and evaluation, education, governance, climate change, technology, taxation, and organizational systems strengthening.
-            </p>
-
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              StarLime Consultant & General Dealer Limited strives to empower institutions, communities, and individuals by providing reliable services that drive long-term development and operational effectiveness.
-            </p>
-
-            
+           
           </motion.div>
         </div>
       </section>
