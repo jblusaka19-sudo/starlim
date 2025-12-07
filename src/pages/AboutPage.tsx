@@ -57,7 +57,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              We operate with a commitment to professionalism, inclusiveness, and excellence, delivering high-quality consulting, auditing, taxation, and general business services tailored to meet diverse client needs.
+              Our team consists of experienced professionals with expertise in research, programme design, monitoring and evaluation, education, governance, climate change, technology, taxation, and organizational systems strengthening.
             </p>
 
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
