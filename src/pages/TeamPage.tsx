@@ -239,7 +239,7 @@ export default function TeamPage() {
               We're always looking for talented professionals who share our commitment to excellence, innovation, and positive impact.
             </p>
             <a
-              href="/#contact"
+              href="/contact"
               className="px-8 py-4 bg-white text-emerald-600 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
             >
               Get in Touch

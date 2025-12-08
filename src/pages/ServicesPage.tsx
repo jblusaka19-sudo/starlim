@@ -254,14 +254,14 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/#contact"
+                href="/contact"
                 className="px-8 py-4 bg-white text-emerald-600 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center justify-center gap-2"
               >
                 Schedule a Consultation
                 <ArrowRight size={20} />
               </a>
               <a
-                href="/#contact"
+                href="/contact"
                 className="px-8 py-4 border-2 border-white text-white rounded-lg font-bold hover:bg-white/10 hover:scale-105 transition-all duration-300"
               >
                 Contact Us Today

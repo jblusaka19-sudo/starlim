@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { Users, Award, Briefcase, Target, Telescope, Heart, GraduationCap, Globe } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 
@@ -34,6 +35,7 @@ const timeline = [
 ];
 
 export default function AboutPage() {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen pt-24">
       <section className="py-24 bg-gradient-to-br from-emerald-50 via-white to-teal-50">
@@ -224,7 +226,10 @@ export default function AboutPage() {
             <p className="text-xl leading-relaxed mb-8 text-white/90">
               StarLime Consultant & General Dealer Limited strives to empower institutions, communities, and individuals by providing reliable services that drive long-term development and operational effectiveness. We operate with unwavering commitment to professionalism, inclusiveness, and excellence in every project we undertake.
             </p>
-            <button className="px-8 py-4 bg-white text-emerald-600 rounded-lg font-bold hover:shadow-xl transition-all duration-300">
+            <button
+              onClick={() => navigate('/contact')}
+              className="px-8 py-4 bg-white text-emerald-600 rounded-lg font-bold hover:shadow-xl hover:scale-105 transition-all duration-300"
+            >
               Start Your Journey With Us
             </button>
           </motion.div>
